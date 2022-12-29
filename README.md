@@ -1,7 +1,7 @@
 # pacman
 A faithful HTML5 recreation of Pac-Man I made as a freshman using Phaser. 
 
-Can be run using any basic html server and loading the default index.html page.
+Can be run using any basic html server and loading the default index.html page, or by going to [this page](https://angelloghernan.github.io/pacman).
 
 Contains a couple of bugs, as I haven't tested it since 2020. 
 
