@@ -9,3 +9,4 @@ The display works correctly in Safari.
 
 <img src="https://i.imgur.com/byEEKD1.png" width="300" height="400">
 <img src="https://i.imgur.com/8ayVFDK.png" width="300" height="400">
+<img src="https://i.imgur.com/f6q7kUK.png" width="300" height="400">
