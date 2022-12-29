@@ -7,6 +7,6 @@ The display works correctly in Safari.
 
 # Screenshots
 
-![Pacman eating pellets while ghosts are blue](https://i.imgur.com/byEEKD1.png = 100x200)
+![Pacman eating pellets while ghosts are blue](https://i.imgur.com/byEEKD1.png =100x200)
 
-![Pacman running from ghosts](https://i.imgur.com/8ayVFDK.png = 100x200)
+![Pacman running from ghosts](https://i.imgur.com/8ayVFDK.png =100x200)
