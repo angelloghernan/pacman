@@ -7,5 +7,5 @@ The display works correctly in Safari.
 
 # Screenshots
 
-<img src="https://i.imgur.com/byEEKD1.png" width="200" height="400">
-<img src="https://i.imgur.com/8ayVFDK.png" width="200" height="400">
+<img src="https://i.imgur.com/byEEKD1.png" width="300" height="400">
+<img src="https://i.imgur.com/8ayVFDK.png" width="300" height="400">
