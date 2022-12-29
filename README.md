@@ -7,7 +7,7 @@ Contains a couple of bugs, as I haven't tested it since 2020.
 
 For example, in Chromium, the "High Score"/"Player One" text appears in the wrong place, which was not the case when this project was first created. This is an issue related to Phaser.
 
-The display works correctly in Safari.
+The display works correctly in the latest version of Safari.
 
 ## Screenshots
 
