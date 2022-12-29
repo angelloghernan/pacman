@@ -974,35 +974,35 @@ function create() {
 
     // Add UI and startup text ("HIGH SCORE", "1UP", "PLAYER ONE", "READY!")
     // Note that each word has to be created separately because using spaces makes the text blurry for some reason that I am still not sure of.
-    this.add.text(TILE_SIZE * 10 - 4, 0, 'HIGH', {
+    this.add.text(TILE_SIZE * 10 - 4, -TILE_SIZE * 5, 'HIGH', {
         fontFamily: 'font1',
         color: "#FFFFFF",
         fontSize: "7px",
         resolution: 3
     });
 
-    this.add.text(TILE_SIZE * 15 - 3, 0, 'SCORE', {
+    this.add.text(TILE_SIZE * 15 - 3, -TILE_SIZE * 5, 'SCORE', {
         fontFamily: 'font1',
         color: "#FFFFFF",
         fontSize: "7px",
         resolution: 3
     });
 
-    this.add.text(TILE_SIZE * 3 - 3, 0, "1UP", {
+    this.add.text(TILE_SIZE * 3 - 3, -TILE_SIZE * 5, "1UP", {
         fontFamily: 'font1',
         color: "#FFFFFF",
         fontSize: "7px",
         resolution: 3
     });
 
-    high_score.disp = this.add.text(TILE_SIZE * 17, TILE_SIZE, '0', {
+    high_score.disp = this.add.text(TILE_SIZE * 17, TILE_SIZE - TILE_SIZE * 5, '0', {
         fontFamily: 'font1',
         color: "#FFFFFF",
         fontSize: "7px",
         resolution: 3
     });
 
-    score.disp = this.add.text(TILE_SIZE * 5 - 2, TILE_SIZE, '00', {
+    score.disp = this.add.text(TILE_SIZE * 5 - 2, TILE_SIZE - TILE_SIZE * 5, '00', {
         fontFamily: 'font1',
         color: '#FFFFFF',
         fontSize: "7px",
@@ -1011,21 +1011,21 @@ function create() {
 
     score.value = 0;
 
-    ready_text = this.add.text(START_X - TILE_SIZE * 2 - 5, START_Y - TILE_SIZE * 7 + 4, 'READY!', {
+    ready_text = this.add.text(START_X - TILE_SIZE * 2 - 5, START_Y - TILE_SIZE * 7 - TILE_SIZE * 5, 'READY!', {
         fontFamily: 'font1',
         color: "#FDEF29",
         fontSize: "7px",
         resolution: 3
     });
 
-    this.startup_text = this.add.text(START_X - TILE_SIZE * 4 - 5, START_Y - TILE_SIZE * 13 + 4, 'PLAYER', {
+    this.startup_text = this.add.text(START_X - TILE_SIZE * 4 - 5, START_Y - TILE_SIZE * 13 - TILE_SIZE * 5, 'PLAYER', {
         fontFamily: 'font1',
         color: "#00E8FF",
         fontSize: "7px",
         resolution: 3
     })
 
-    this.startup_text2 = this.add.text(START_X + TILE_SIZE * 3 - 8, START_Y - TILE_SIZE * 13 + 4, 'ONE', {
+    this.startup_text2 = this.add.text(START_X + TILE_SIZE * 3 - 8, START_Y - TILE_SIZE * 13 - TILE_SIZE * 5, 'ONE', {
         fontFamily: 'font1',
         color: "#00E8FF",
         fontSize: "7px",
@@ -1893,14 +1893,14 @@ function gameOver(canvas) {
 
 
     // Note that the text here had to be separated; using spaces in text makes the text very blurry for some unknown reason.
-    canvas.add.text(START_X - TILE_SIZE * 5, START_Y - TILE_SIZE * 6 - 4, 'GAME', {
+    canvas.add.text(START_X - TILE_SIZE * 5, START_Y - TILE_SIZE * 5 - TILE_SIZE * 7, 'GAME', {
         fontFamily: 'font1',
         color: "#FF0000",
         fontSize: "7px",
         resolution: 3
     });
 
-    canvas.add.text(START_X + TILE_SIZE, START_Y - TILE_SIZE * 6 - 4, 'OVER', {
+    canvas.add.text(START_X + TILE_SIZE, START_Y - TILE_SIZE * 5 - TILE_SIZE * 7, 'OVER', {
         fontFamily: 'font1',
         color: "#FF0000",
         fontSize: "7px",
