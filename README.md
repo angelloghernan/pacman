@@ -1,7 +1,11 @@
 # pacman
-A faithful HTML5 recreation of Pac-Man I did as a freshman using Phaser. Can be run using any basic html server and loading the default index.html page.
+A faithful HTML5 recreation of Pac-Man I made as a freshman using Phaser. 
 
-Contains a couple of bugs -- I haven't tested it since 2020. For example, in Chromium, the "High Score"/"Player One" text appears in the wrong place, which was not the case when this project was first created. This is an issue related to Phaser.
+Can be run using any basic html server and loading the default index.html page.
+
+Contains a couple of bugs, as I haven't tested it since 2020. 
+
+For example, in Chromium, the "High Score"/"Player One" text appears in the wrong place, which was not the case when this project was first created. This is an issue related to Phaser.
 
 The display works correctly in Safari.
 
